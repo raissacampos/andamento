@@ -1,0 +1,171 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+
+body{
+    background-color:#0d477a36;
+}
+.primario {
+    background-image: url(../img/banne.jpg);
+    height: 1000px;
+}
+
+.filho {
+    background-color: #0d477a5d;
+    height: 1000px;
+}
+
+.logo img {
+    margin-top: 30px;
+    padding-left: 90px;
+}
+
+.menu ul {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding-left: 900px;
+    font-size: 18px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #e9f2f3;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 350px;
+    color: #e9f2f3;
+    font-size: 70px;
+}
+
+p {
+    text-align: center;
+    color: #e9f2f3;
+    font-size: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 150px;
+    height: 25px;
+    background-color: #2175BF;
+}
+
+button a {
+    color: #e9f2f3;
+    border: 5px;
+    border-color: #e9f2f3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.colunas1 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background-color: #0d477a36;
+}
+
+.titulo1 {
+    color: black;
+    font-size: 50px;
+    margin-top: 1px;
+}
+
+.para1 {
+    color: black;
+}
+
+
+.colunas2{
+    background-color: #0d477a5d;
+    height: 800px;
+}
+
+.titulo h2{
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.fileira1 p {
+    color: black;
+    font-size: 17px;
+}
+
+.fileira1 img {
+    width: 350px;
+    height: 200px;
+}
+
+.fileira1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.fileira1 h2{
+    font-size: 25px;
+    color: #e9f2f3;
+}
+
+.fileira2 p {
+    color: black;
+    font-size: 17px;
+}
+
+.fileira2 img {
+    width: 350px;
+    height: 200px;
+}
+
+.fileira2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-right: 10px;
+}
+
+.fileira2 h2{
+    font-size: 25px;
+    color: #e9f2f3;
+}
+.letra {
+    font-size: 18px;
+    color: #222;
+}
+
+.fundo2 {
+    align-items: center;
+  background-color: #0d477a36;
+}
+.titulo2{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.itens{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
