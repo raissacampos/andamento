@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: auto;
     padding: auto;
 }
 
 
-body{
-    background-color:#0d477a36;
+body {
+    background-color: #0d477a36;
+    font-family: 'Raleway';
 }
+
 .primario {
     background-image: url(../img/banne.jpg);
     height: 1000px;
@@ -42,7 +46,6 @@ body{
 
 h1 {
     text-align: center;
-    margin-top: 350px;
     color: #e9f2f3;
     font-size: 70px;
 }
@@ -71,6 +74,9 @@ button a {
     font-size: 14px;
 }
 
+.sobre{
+    margin-top: 326px;
+}
 .colunas1 {
     justify-content: space-between;
     display: flex;
@@ -82,7 +88,6 @@ button a {
 .titulo1 {
     color: black;
     font-size: 50px;
-    margin-top: 1px;
 }
 
 .para1 {
@@ -90,19 +95,20 @@ button a {
 }
 
 
-.colunas2{
+.colunas2 {
     background-color: #0d477a5d;
-    height: 800px;
+    height: 935px;
 }
 
-.titulo h2{
+.titulo h2 {
     font-size: 60px;
     text-align: center;
-    
+    padding-top: 40px;
+
 }
 
 .fileira1 p {
-    color: black;
+    color: #e9f2f3;
     font-size: 17px;
 }
 
@@ -120,13 +126,13 @@ button a {
 
 }
 
-.fileira1 h2{
+.fileira1 h2 {
     font-size: 25px;
     color: #e9f2f3;
 }
 
 .fileira2 p {
-    color: black;
+    color: #e9f2f3;
     font-size: 17px;
 }
 
@@ -144,10 +150,11 @@ button a {
     padding-right: 10px;
 }
 
-.fileira2 h2{
+.fileira2 h2 {
     font-size: 25px;
     color: #e9f2f3;
 }
+
 .letra {
     font-size: 18px;
     color: #222;
@@ -155,17 +162,75 @@ button a {
 
 .fundo2 {
     align-items: center;
-  background-color: #0d477a36;
-}
-.titulo2{
-    font-size: 45px;
-    color: black;
-    text-align: center;
-    margin-top: 17px;
+    background-color: #0d477a36;
+    height: 500px;
+    background-image: url(../img/brinquedo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.itens{
+.titulo2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fundo3{
+    background-color: #eeeef1a8;
+    height: 500px;
+}
+
+.itens {
     display: inline-block;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+}
+
+.itens1 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 105px;
+}
+
+.para2{
+    color: black;
+    font-size: 20px;
+}
+
+.faixa{
+    background-color: rgba(255, 0, 0, 0.575);
+    color: white;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 150px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+.botao3{
+    border: 5px solid #e9f2f3;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.coluna{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #222;
+    padding-top: 40px;
+}
+
+.para3{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
 }
